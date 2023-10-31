@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="../styles/index.css">
     <title>Ongoing Mark - Functions</title>
 </head>
 
 <body class="container-fluid">
-    <header>
+    <header class="d-flex justify-content-between align-items-center">
+        <a href="/" class="d-flex justify-content-start logo-container">
+            <img src="../assets/icons/nav-logo.png" alt="logo" class="nav-logo" />
+        </a>
         <ul class="nav justify-content-end">
             <li class="nav-item">
-                <a href="/">
-                    <img src="" alt="" />
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="">Public</a>
+                <a class="nav-link" href="./public.html">Public</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="./brand.html">Brand</a>
@@ -35,18 +33,22 @@
             </li>
         </ul>
     </header>
-    <section class="container-fluid d-flex flex-column gap-5">
+    <section class="container-fluid d-flex flex-column gap-5 my-4">
         <div class="row">
-            <div class="col">
-                <img src="" alt="" />
+            <div class="col d-flex flex-column align-items-center">
+                <picture class="caption-icon d-flex">
+                    <img src="../assets/icons/world-icon.png" alt="world" />
+                </picture>
                 <h3>Lorem</h3>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse earum similique deleniti harum ullam. Doloremque, tempore architecto, laboriosam voluptatum est porro officiis voluptatem deserunt consequuntur officia, facere eveniet eligendi. Magni?
                     Perferendis nisi delectus placeat maiores praesentium rem libero sed quo necessitatibus aut quia eos harum cumque blanditiis, commodi odio soluta id distinctio eaque sequi voluptatibus! Minus fugit quibusdam tenetur dolorum.
                 </p>
             </div>
-            <div class="col">
-                <img src="" alt="" />
+            <div class="col d-flex flex-column align-items-center">
+                <picture class="caption-icon d-flex">
+                    <img src="../assets/icons/build-icon.png" alt="building" />
+                </picture>
                 <h3>Lorem</h3>
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse earum similique deleniti harum ullam. Doloremque, tempore architecto, laboriosam voluptatum est porro officiis voluptatem deserunt consequuntur officia, facere eveniet eligendi. Magni?
@@ -55,8 +57,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col">
-                <img src="" alt="" />
+            <div class="col d-flex flex-column align-items-center">
+                <picture class="caption-icon d-flex">
+                    <img src="../assets/icons/build-icon.png" alt="bulb" />
+                </picture>
                 <h3>Lorem</h3>
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, provident libero molestias, quis, enim cupiditate aspernatur labore debitis numquam hic nulla corporis doloribus perferendis corrupti consequatur voluptate quae unde fuga.
@@ -68,7 +72,7 @@
             </div>
         </div>
     </section>
-    <footer class="container-fluid fixed-bottom">
+    <footer class="container-fluid">
         <div class="row">
             <div class="col">
                 <img src="" alt="" />
